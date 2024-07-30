@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    background-color: bisque;
+    color: black;
+    padding: 14px;
+    border-radius: 14px;
+}
+.ShowContact{
+    margin: 14px;
+    min-height: 600px;
+}
+
+.Stack{
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.Contact{
+    width: 400px;
+    font-size: 18px;
+    position: relative;
+}
+
+
+#addNew{
+    position:fixed;
+    bottom: 70px;
+    right: 10%;
+    /* font-weight: bold; */
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 4000px;
+}
+
+.AddNew{
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    position: fixed;
+    bottom: 70px;
+    right: 20%;
+    font-size: 20px;
+    width: 300px;
+    border: 3px solid rgb(11, 59, 147);
+    border-radius: 14px;
+    
+}
+input{
+    background-color: aliceblue;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 90%;
+    color: rgb(65, 138, 202);
+}
+.AddNew button{
+    padding: 5px;
+    margin: 5px;
+    background: rgb(68, 110, 189);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.EditDelete{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+.EditDelete .AddNew{
+    position: fixed;
+    z-index: 10;
+    bottom: 70px;
+    left: 20%;
+}
